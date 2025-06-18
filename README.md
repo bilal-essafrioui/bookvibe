@@ -42,7 +42,7 @@ bookvibe/
 - S’inscrire et se connecter
 
 ### Utilisateurs connectés (JWT)
-- Ajouter/modifier une critique
+- Ajouter/modifier ses propre critiques
 - Supprimer sa propre critique
 
 
@@ -99,6 +99,6 @@ npm start
 - `POST /log-in` — Connexion  
 
 ### Actions sécurisées (JWT requis)
-- `POST /add/review/` — Ajouter une critique  
-- `POST /update/review/` — Modifier une critique  
-- `DELETE /delete/review/:id` — Supprimer une critique
+- `POST /add/review/:id` — Ajouter une critique  
+- `POST /update/review/:id` — Modifier sa critique  
+- `DELETE /delete/review/:id` — Supprimer sa critique
