@@ -4,16 +4,15 @@
 Backend : Node.js, Express, MySQL, JWT.  
 Frontend React prévu dans les prochaines versions.
 
----
 
 ## 🌐 Objectif
 
 Offrir une plateforme moderne de critiques de livres avec authentification et API RESTful.
 
----
 
 ## 📁 Structure du projet
 
+```plaintext
 bookvibe/
 ├── client/               # React frontend (à venir)
 └── server/
@@ -30,9 +29,9 @@ bookvibe/
     ├── .env              # Variables d’environnement
     ├── .env.example
     ├── package.json
-    └── README.md
-    
----
+└── README.md            
+
+```
 
 ## 🚀 Fonctionnalités
 
@@ -46,7 +45,6 @@ bookvibe/
 - Ajouter/modifier une critique
 - Supprimer sa propre critique
 
----
 
 ## 🛠️ Technologies
 
@@ -56,7 +54,6 @@ bookvibe/
 - Authentification : JWT (jsonwebtoken)  
 - Gestion des variables d’environnement : dotenv
 
----
 
 ## ⚙️ Installation
 
